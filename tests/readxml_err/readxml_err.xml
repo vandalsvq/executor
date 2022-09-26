@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Document ProgramVersion="12.1.5.37614" Generator="GrandSmeta" DocumentType="{2B0470FD-477C-4359-9F34-EEBE36B7D340}">
+  <Properties LocNum="244К-Р-001.000.000-АС.АКЗ-01-ЛС-002" Object="Технологическая эстакада продуктопроводов от товарного парка до периметра НК НПЗ" Constr="Технологическая эстакада продуктопроводов (бензин, ДТ) от ОАО «НК НПЗ» на ЛПДС «Воскресенка», ОАО «АК «Транснефтепродукт»" Description="Антикоррозионное и огнезащитное покрытие металлоконструкций"/>
+  <Variables>
+    <Variable Caption="Материалы" Identifier="мтр" Value="12,55"/>
+    <Variable Caption="Оборудование" Identifier="обор" Value="5,21"/>
+    <Variable Caption="ЗСРо" Identifier="ЗСРо" Value="1,012"/>
+    <Variable Caption="ЗСРм" Identifier="ЗСРм" Value="1,02"/>
+    <Variable Caption="ндс" Identifier="ндс" Value="1.2"/>
+  </Variables>
+  <GsDocSignatures>
+    <Item Caption="Основание" ID="100" Value="НК11-1283/14/244-Р-001.000.000-АC-01"/>
+    <Item Caption="Составил" ID="300" Value="Петишкина И.А."/>
+    <Item Caption="Проверил" ID="310" Value="Бурыкина Г.В."/>
+    <Item Caption="Дата составления сметы" ID="102" Value="01.01.2000 г."/>
+  </GsDocSignatures>
+  <RegionalK Options="Percent Base"/>
+  <TerZoneK Caption="Территориальная поправка к базе 2001г" Options="Base PzAll EmAll"/>
+  <WinterCatalog WinterMode="None" WinterLinkMode="Table">
+    <CommonWinterK/>
+  </WinterCatalog>
+  <RegionInfo RegionName="ГЭСН-2020, ФЕР-2020 (с Изм. 1-7)" RegionID="8007" Zone84Name="Базовый территориальный район" Zone84ID="1" Zone01Name="Базовый федеральный район" Zone01ID="1"/>
+  <FRSN_Info BaseType="GSN" BaseName="Изменения в сметные нормы, утвержденные приказами Минстроя России от 26 декабря № 2019 г. № 871/пр, 872/пр, 874/пр, 875/пр (в ред. приказов от 30.03.2020 № 171/пр, от 01.06.2020 295/пр, от 30.06.2020 № 353/пр, от 20.10.2020 № 635/пр, от 09.02.2021  № 50/пр, от 24.05.2021 № 320/пр, от 24.06.2021 № 407/пр)" RegNumber="381" RegDate="28.06.2021"/>
+  <Parameters Options="AddZatr SeparateFot MultPosK ObsoleteRound" BasePrices="2001" BaseCalcVrs="Vr2001" TzDigits="2" BlockRoundMode="Smart" MultKPosCalcMode="UseTotalMult" TempZone="1" TsnTempZone="1" MatDigits="4" MatRoundMode="SignDigitsPreserveInt" PosKDigits="7" ItogOptions="SeparateVrs" FirstItogItem="K" ItogExpandTo="Default">
+    <CommonNK ActiveItems="Vk Ck Mk"/>
+    <CommonPK ActiveItems="Vk Ck Mk"/>
+  </Parameters>
+  <Indexes IndexesMode="None" IndexesLinkMode="Default"/>
+  <AddZatrats>
+    <AddZatrGlava Glava="8"/>
+    <AddZatrGlava Glava="9"/>
+    <AddZatrGlava Glava="10"/>
+    <AddZatrGlava Glava="11"/>
+    <AddZatrGlava Glava="12"/>
+    <AddZatrGlava Glava="13"/>
+    <AddZatrGlava Glava="14"/>
+    <AddZatrGlava Glava="15"/>
+  </AddZatrats>
+  <OsInfo OSChapter="1" LinkType="LB">
+    <CCChapter Cons="2" Rec="2" Road="2"/>
+  </OsInfo>
+  <VidRab_Catalog>
+    <Vids_Rab Type="Виды работ 2001г" CatFile="ВР Методика 2020">
+      <VidRab_Group Caption="Общестроительные работы" ID="0">
+        <Vid_Rab Caption="Свайные работы" ID="10008" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.5.1" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.5.1" Nacl="117" Plan="70" NaclCurr="117" PlanCurr="70" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Земляные работы, выполняемые по другим видам работ (подготовительным, сопутствующим, укрепительным)" ID="10004" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.1.4" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.1.4" Nacl="89" Plan="41" NaclCurr="89" PlanCurr="41" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Бетонные и железобетонные сборные конструкции и работы в строительстве" ID="10013" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.7" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.7" Nacl="110" Plan="73" NaclCurr="110" PlanCurr="73" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Земляные работы, выполняемые механизированным способом" ID="10001" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.1.1" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.1.1" Nacl="92" Plan="46" NaclCurr="92" PlanCurr="46" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Земляные работы, выполняемые ручным способом" ID="10002" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.1.2" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.1.2" Nacl="89" Plan="40" NaclCurr="89" PlanCurr="40" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Конструкции из кирпича и блоков" ID="10015" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.8" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.8" Nacl="110" Plan="69" NaclCurr="110" PlanCurr="69" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Бетонные и железобетонные монолитные конструкции и работы в строительстве" ID="10011" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.6" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.6" Nacl="102" Plan="58" NaclCurr="102" PlanCurr="58" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Скважины" ID="10007" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.4" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.4" Nacl="106" Plan="45" NaclCurr="106" PlanCurr="45" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Кровли" ID="10019" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.12" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.12" Nacl="109" Plan="57" NaclCurr="109" PlanCurr="57" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Защита строительных конструкций и оборудования от коррозии" ID="10020" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.13" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.13" Nacl="94" Plan="51" NaclCurr="94" PlanCurr="51" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Материалы для строительных работ" ID="10091" Category="Construction" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Теплоизоляционные работы" ID="10030" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.20" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.20" Nacl="97" Plan="55" NaclCurr="97" PlanCurr="55" NaclMask="ФОТ" PlanMask="ФОТ"/>
+      </VidRab_Group>
+      <VidRab_Group Caption="Монтажные работы" ID="10003">
+        <Vid_Rab Caption="Изготовление технологических металлических конструкций в условиях производственных баз" ID="11366" OsColumn="М" Category="Mounting" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.80" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.80" Nacl="90" Plan="45" NaclCurr="90" PlanCurr="45" NaclMask="ФОТ" PlanMask="ФОТ"/>
+        <Vid_Rab Caption="Материалы для монтажных работ" ID="10092" OsColumn="М" Category="Mounting" NaclMask="ФОТ" PlanMask="ФОТ"/>
+      </VidRab_Group>
+      <VidRab_Group Caption="Прочие работы" ID="15">
+        <Vid_Rab Caption="Изготовление в построечных условиях материалов, полуфабрикатов, металлических и трубопроводных заготовок" ID="10139" OsColumn="М" Category="MountingRelated" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.108" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.108" Nacl="73" Plan="34" NaclCurr="73" PlanCurr="34" NaclMask="ФОТ" PlanMask="ФОТ"/>
+      </VidRab_Group>
+      <VidRab_Group Caption="Монтаж металлоконструкций" ID="1">
+        <Vid_Rab Caption="Строительные металлические конструкции" ID="10016" Category="Construction" NrCode="Приказ Минстроя России № 812/пр от 21.12.2020 Прил. п.9" SpCode="Приказ Минстроя России № 774/пр от 11.12.2020 Прил. п.9" Nacl="93" Plan="62" NaclCurr="93" PlanCurr="62" NaclMask="ФОТ" PlanMask="ФОТ"/>
+      </VidRab_Group>
+      <VidRab_Group Caption="Перевозка грузов" ID="1013">
+        <Vid_Rab Caption="Перевозка грузов автотранспортом" ID="10133" Category="Construction" ResGroup="Transp" NaclMask="ФОТ" PlanMask="ФОТ"/>
+      </VidRab_Group>
+    </Vids_Rab>
+    <Vids_Rab Type="Виды работ 1984г" CatFile="ЕРЕР-84" NrspFile="НРСП ЕРЕР-84"/>
+  </VidRab_Catalog>
+  <Chapters>
+    <Chapter Caption="Антикоррозионное и огнезащитное покрытие металлоконструкций" SysID="8">
+      <Position Caption="Очистка кварцевым песком: сплошных наружных поверхностей" Identifier="Ф1" Number="179" Code="ФЕР13-06-002-01" ItemFlags="Info" Units="м2" SysID="481" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="28412,6" DBFlags="TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="28412,6" Result="28412,6"/>
+        <PriceBase PZ="36,26" OZ="2,22" EM="34,04" ZM="4,31"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-3-0" Units="чел.-ч" Quantity="0,26" WorkClass="3">
+            <PriceBase Value="8,53"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,41"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,02">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="0,12">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mch Caption="Компрессоры передвижные с двигателем внутреннего сгорания, давление до 686 кПа (7 ат), производительность до 5 м3/мин" Code="91.18.01-007" Units="маш.час" Quantity="0,27">
+            <PriceBase Value="90" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Аппараты пескоструйные, объем до 19 л, расход воздуха 270-700 л/мин" Code="91.21.03-502" Units="маш.час" Quantity="0,22">
+            <PriceBase Value="0,14"/>
+          </Mch>
+          <Mat Caption="Песок кварцевый" Identifier="р1" Code="02.3.01.07" Units="кг" Quantity="32" Options="NotCount"/>
+        </Resources>
+        <WorksList>
+          <Work Caption="Заправка аппарата песком."/>
+          <Work Caption="Осмотр шланговых соединений."/>
+          <Work Caption="Очистка поверхности."/>
+          <Work Caption="Уборка отработанного песка."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="36,26" OZ="2,22" EM="34,04" ZM="4,31" TZ="0,26" TM="0,41"/>
+            <Itog Caption="ВСЕГО на физобъем (28412,6)" DataType="TotalFo" PZ="1030240,87" OZ="63075,97" EM="967164,9" ZM="122458,31" TZ="7387,28" TM="11649,17"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 185&#xA0;534,28)" DataType="Nacl" PZ="174402,22"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 185&#xA0;534,28)" DataType="Plan" PZ="94622,48"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="1299265,57"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="36,26" OZ="2,22" EM="34,04" ZM="4,31" TZ="0,26" TM="0,41"/>
+            <Itog Caption="ВСЕГО на физобъем (28412,6)" DataType="TotalFo" PZ="1030240,87" OZ="63075,97" EM="967164,9" ZM="122458,31" TZ="7387,28" TM="11649,17"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 185&#xA0;534,28)" DataType="Nacl" PZ="174402,22"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 185&#xA0;534,28)" DataType="Plan" PZ="94622,48"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="1299265,57"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="0,26" TM="0,41"/>
+            <Itog Caption="ВСЕГО на физобъем (28412,6)" DataType="TotalFo" TZ="7387,28" TM="11649,17"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Купрошлак" Number="180" Code="ФССЦ-01.7.17.08-0001" Units="т" SysID="482" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="21*Ф1/1000" PzSync="Yes" Vr2001="10020" Cargo="1" Mass="1010">
+        <Quantity Fx="21*Ф1/1000" Result="596,6646"/>
+        <PriceBase PZ="593,27" MT="593,27"/>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="593,27" MT="593,27"/>
+            <Itog Caption="ВСЕГО на физобъем (596,6646)" DataType="TotalFo" PZ="353983,21" MT="353983,21"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="353983,21"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="593,27" MT="593,27"/>
+            <Itog Caption="ВСЕГО на физобъем (596,6646)" DataType="TotalFo" PZ="353983,21" MT="353983,21"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="353983,21"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr"/>
+            <Itog Caption="ВСЕГО на физобъем (596,6646)" DataType="TotalFo"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Обеспыливание поверхности" Number="181" Code="ФЕР13-06-004-01" ItemFlags="Info" Units="м2" SysID="483" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="Ф1" DBFlags="TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="Ф1" Result="28412,6"/>
+        <PriceBase PZ="0,93" OZ="0,6" EM="0,33"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-3-0" Units="чел.-ч" Quantity="0,07" WorkClass="3">
+            <PriceBase Value="8,53"/>
+          </Tzr>
+          <Mch Caption="Пылесосы промышленные, мощность до 2000 Вт" Code="91.21.22-638" Units="маш.час" Quantity="0,1">
+            <PriceBase Value="3,29"/>
+          </Mch>
+        </Resources>
+        <WorksList>
+          <Work Caption="Обеспыливание поверхности."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="0,93" OZ="0,6" EM="0,33" TZ="0,07"/>
+            <Itog Caption="ВСЕГО на физобъем (28412,6)" DataType="TotalFo" PZ="26423,72" OZ="17047,56" EM="9376,16" TZ="1988,88"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 17&#xA0;047,56)" DataType="Nacl" PZ="16024,71"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 17&#xA0;047,56)" DataType="Plan" PZ="8694,26"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="51142,69"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="0,93" OZ="0,6" EM="0,33" TZ="0,07"/>
+            <Itog Caption="ВСЕГО на физобъем (28412,6)" DataType="TotalFo" PZ="26423,72" OZ="17047,56" EM="9376,16" TZ="1988,88"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 17&#xA0;047,56)" DataType="Nacl" PZ="16024,71"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 17&#xA0;047,56)" DataType="Plan" PZ="8694,26"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="51142,69"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="0,07"/>
+            <Itog Caption="ВСЕГО на физобъем (28412,6)" DataType="TotalFo" TZ="1988,88"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Обезжиривание поверхностей аппаратов и трубопроводов диаметром до 500 мм: уайт-спиритом" Number="182" Code="ФЕР13-07-001-02" ItemFlags="Info" Units="100 м2" SysID="484" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="(Ф1) / 100" DBFlags="TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="=Ф1" KUnit="100" Result="284,126"/>
+        <PriceBase PZ="304,13" OZ="79,36" EM="2,23" ZM="0,33" MT="222,54"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-3-2" Units="чел.-ч" Quantity="9,08" WorkClass="3,2">
+            <PriceBase Value="8,74"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,03"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="0,02">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mat Caption="Ветошь" Code="01.7.20.08-0051" Units="кг" Quantity="5" Cargo="1" Mass="1">
+            <PriceBase Value="1,82"/>
+          </Mat>
+          <Mat Caption="Уайт-спирит" Code="14.5.09.11-0102" Units="кг" Quantity="32" Cargo="2" Mass="1,35">
+            <PriceBase Value="6,67"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Обезжиривание поверхностей аппаратов и трубопроводов."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="304,13" OZ="79,36" EM="2,23" ZM="0,33" MT="222,54" TZ="9,08" TM="0,03"/>
+            <Itog Caption="ВСЕГО на физобъем (284,126)" DataType="TotalFo" PZ="86411,24" OZ="22548,24" EM="633,6" ZM="93,76" MT="63229,4" TZ="2579,86" TM="8,52"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 22&#xA0;642,00)" DataType="Nacl" PZ="21283,48"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 22&#xA0;642,00)" DataType="Plan" PZ="11547,42"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="119242,14"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="304,13" OZ="79,36" EM="2,23" ZM="0,33" MT="222,54" TZ="9,08" TM="0,03"/>
+            <Itog Caption="ВСЕГО на физобъем (284,126)" DataType="TotalFo" PZ="86411,24" OZ="22548,24" EM="633,6" ZM="93,76" MT="63229,4" TZ="2579,86" TM="8,52"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 22&#xA0;642,00)" DataType="Nacl" PZ="21283,48"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 22&#xA0;642,00)" DataType="Plan" PZ="11547,42"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="119242,14"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="9,08" TM="0,03"/>
+            <Itog Caption="ВСЕГО на физобъем (284,126)" DataType="TotalFo" TZ="2579,86" TM="8,52"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Огрунтовка металлических поверхностей за один раз: грунтовкой на основе эпоксидной смолы" Identifier="Ф2" Number="183" Code="ФЕР13-03-002-16" ItemFlags="Info" Units="100 м2" SysID="485" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="(Ф1-14374) / 100" DBFlags="Comment TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="=Ф1-14374" KUnit="100" Result="140,386"/>
+        <PriceBase PZ="793,09" OZ="50,76" EM="9,22" ZM="0,22" MT="733,11"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-4-9" Units="чел.-ч" Quantity="4,64" WorkClass="4,9">
+            <PriceBase Value="10,94"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,02"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mch Caption="Агрегаты окрасочные высокого давления для окраски поверхностей конструкций, мощность 1 кВт" Code="91.21.01-012" Units="маш.час" Quantity="1,12">
+            <PriceBase Value="6,82"/>
+          </Mch>
+          <Mat Caption="Грунтовка эпоксидная, антикоррозионная, универсальная, для защиты от агрессивного воздействия окружающей среды" Code="14.4.01.09-0405" Units="т" Quantity="0,017" Attribs="Deleted">
+            <PriceBase Value="40329,7"/>
+          </Mat>
+          <Mat Caption="Отвердитель № 1" Code="14.5.09.04-0111" Units="т" Quantity="0,0007" Attribs="Deleted">
+            <PriceBase Value="67872"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Подготовка окрасочных агрегатов."/>
+          <Work Caption="Приготовление грунтовочных составов."/>
+          <Work Caption="Нанесение грунта."/>
+          <Work Caption="Промывка, очистка окрасочных агрегатов и шлангов."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="793,09" OZ="50,76" EM="9,22" ZM="0,22" MT="733,11" TZ="4,64" TM="0,02"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="59,98" OZ="50,76" EM="9,22" ZM="0,22" TZ="4,64" TM="0,02"/>
+            <Itog Caption="ВСЕГО на физобъем (140,386)" DataType="TotalFo" PZ="8420,35" OZ="7125,99" EM="1294,36" ZM="30,88" TZ="651,39" TM="2,81"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 7&#xA0;156,87)" DataType="Nacl" PZ="6727,46"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 7&#xA0;156,87)" DataType="Plan" PZ="3650"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="18797,81"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="793,09" OZ="50,76" EM="9,22" ZM="0,22" MT="733,11" TZ="4,64" TM="0,02"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="59,98" OZ="50,76" EM="9,22" ZM="0,22" TZ="4,64" TM="0,02"/>
+            <Itog Caption="ВСЕГО на физобъем (140,386)" DataType="TotalFo" PZ="8420,35" OZ="7125,99" EM="1294,36" ZM="30,88" TZ="651,39" TM="2,81"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 7&#xA0;156,87)" DataType="Nacl" PZ="6727,46"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 7&#xA0;156,87)" DataType="Plan" PZ="3650"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="18797,81"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="4,64" TM="0,02"/>
+            <Itog Caption="ВСЕГО на физобъем (140,386)" DataType="TotalFo" TZ="651,39" TM="2,81"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Эпоксидная грунт-эмаль ИЗОЛЭП-mastic Расход: 0,64 кг/м2" Number="184" Code="Данные заказчика" Units="кг" SysID="486" PriceLevel="2001" Quantity="ОКР(Ф2*0,64*100; 4)" Options="NotInNB" PzSync="Yes" Vr2001="10092" Cargo="3" Mass="1,1">
+        <Quantity Fx="Ф2*0,64*100" Precision="4" Result="8984,704"/>
+        <PriceBase PZ="31,56" MT="31,56">
+          <Fx MT="466/ндс/мтр*зсрм"/>
+        </PriceBase>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="31,56" MT="31,56"/>
+            <Itog Caption="ВСЕГО на физобъем (8984,704)" DataType="TotalFo" PZ="283557,26" MT="283557,26"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="31,56" MT="31,56"/>
+            <Itog Caption="ВСЕГО на физобъем (8984,704)" DataType="TotalFo" PZ="283557,26" MT="283557,26"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr"/>
+            <Itog Caption="ВСЕГО на физобъем (8984,704)" DataType="TotalFo"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Окраска металлических огрунтованных поверхностей: эмалью ЭП-1236" Identifier="Ф4" Number="185" Code="ФЕР13-03-004-10" ItemFlags="Info" Units="100 м2" SysID="487" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="(Ф1-14374) / 100" DBFlags="Comment TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="=Ф1-14374" KUnit="100" Result="140,386"/>
+        <PriceBase PZ="1537,47" OZ="42,08" EM="7,32" ZM="0,45" MT="1488,07"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-3-5" Units="чел.-ч" Quantity="4,64" WorkClass="3,5">
+            <PriceBase Value="9,07"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,04"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="0,03">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mch Caption="Агрегаты окрасочные высокого давления для окраски поверхностей конструкций, мощность 1 кВт" Code="91.21.01-012" Units="маш.час" Quantity="0,65">
+            <PriceBase Value="6,82"/>
+          </Mch>
+          <Mat Caption="Эмаль эпоксидная, ЭП-1236" Code="14.4.04.12-0014" Units="т" Quantity="0,04" Attribs="Deleted">
+            <PriceBase Value="36000"/>
+          </Mat>
+          <Mat Caption="Отвердитель № 1" Code="14.5.09.04-0111" Units="т" Quantity="0,0005" Attribs="Deleted">
+            <PriceBase Value="67872"/>
+          </Mat>
+          <Mat Caption="Растворитель Р-4" Code="14.5.09.07-0030" Units="кг" Quantity="1,5" Cargo="1" Mass="1,26">
+            <PriceBase Value="9,42"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Подготовка окрасочных агрегатов."/>
+          <Work Caption="Приготовление состава."/>
+          <Work Caption="Нанесение окрасочного состава."/>
+          <Work Caption="Промывка, очистка окрасочных агрегатов и шлангов."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="1537,47" OZ="42,08" EM="7,32" ZM="0,45" MT="1488,07" TZ="4,64" TM="0,04"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="63,53" OZ="42,08" EM="7,32" ZM="0,45" MT="14,13" TZ="4,64" TM="0,04"/>
+            <Itog Caption="ВСЕГО на физобъем (140,386)" DataType="TotalFo" PZ="8918,72" OZ="5907,44" EM="1027,63" ZM="63,17" MT="1983,65" TZ="651,39" TM="5,62"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 5&#xA0;970,61)" DataType="Nacl" PZ="5612,37"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 5&#xA0;970,61)" DataType="Plan" PZ="3045,01"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="17576,1"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="1537,47" OZ="42,08" EM="7,32" ZM="0,45" MT="1488,07" TZ="4,64" TM="0,04"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="63,53" OZ="42,08" EM="7,32" ZM="0,45" MT="14,13" TZ="4,64" TM="0,04"/>
+            <Itog Caption="ВСЕГО на физобъем (140,386)" DataType="TotalFo" PZ="8918,72" OZ="5907,44" EM="1027,63" ZM="63,17" MT="1983,65" TZ="651,39" TM="5,62"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 5&#xA0;970,61)" DataType="Nacl" PZ="5612,37"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 5&#xA0;970,61)" DataType="Plan" PZ="3045,01"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="17576,1"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="4,64" TM="0,04"/>
+            <Itog Caption="ВСЕГО на физобъем (140,386)" DataType="TotalFo" TZ="651,39" TM="5,62"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Акрилуретановая эмаль ПОЛИТОН-УР(УФ) Расход: 0,23кг/м2" Number="186" Code="Данные заказчика" Units="кг" SysID="488" PriceLevel="2001" Quantity="ОКР(Ф4*0,23*100; 4)" Options="NotInNB" PzSync="Yes" Vr2001="10092" Cargo="3" Mass="1,1">
+        <Quantity Fx="Ф4*0,23*100" Precision="4" Result="3228,878"/>
+        <PriceBase PZ="41,04" MT="41,04">
+          <Fx MT="606/ндс/мтр*зсрм"/>
+        </PriceBase>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="41,04" MT="41,04"/>
+            <Itog Caption="ВСЕГО на физобъем (3228,878)" DataType="TotalFo" PZ="132513,15" MT="132513,15"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="41,04" MT="41,04"/>
+            <Itog Caption="ВСЕГО на физобъем (3228,878)" DataType="TotalFo" PZ="132513,15" MT="132513,15"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr"/>
+            <Itog Caption="ВСЕГО на физобъем (3228,878)" DataType="TotalFo"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Огрунтовка металлических поверхностей за один раз: грунтовкой цинконаполненной (под огнезащитное покрытие м.к)" Identifier="Ф136" Number="187" Code="ФЕР13-03-002-17" ItemFlags="Info" Units="100 м2" SysID="489" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="ОКР(14374 / 100; 3)" DBFlags="Comment TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="=14374" KUnit="100" Precision="3" Result="143,74"/>
+        <PriceBase PZ="1364,91" OZ="40,02" EM="15,9" ZM="0,22" MT="1308,99"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-4-1" Units="чел.-ч" Quantity="4,1" WorkClass="4,1">
+            <PriceBase Value="9,76"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,02"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mch Caption="Агрегаты окрасочные высокого давления для окраски поверхностей конструкций, мощность 1 кВт" Code="91.21.01-012" Units="маш.час" Quantity="2,1">
+            <PriceBase Value="6,82"/>
+          </Mch>
+          <Mat Caption="Грунтовка антикоррозионная цинкнаполненная быстросохнущая, преобразователь ржавчины и окалины" Identifier="р1" Code="14.4.01.20-0012" Units="т" Quantity="0,015" Attribs="Deleted" Cargo="3" Mass="1110">
+            <PriceBase Value="86794,72"/>
+          </Mat>
+          <Mat Caption="Растворитель Р-4" Code="14.5.09.07-0030" Units="кг" Quantity="0,75" Cargo="1" Mass="1,26">
+            <PriceBase Value="9,42"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Подготовка окрасочных агрегатов."/>
+          <Work Caption="Приготовление грунтовочных составов."/>
+          <Work Caption="Нанесение грунта."/>
+          <Work Caption="Промывка, очистка окрасочных агрегатов и шлангов."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="1364,91" OZ="40,02" EM="15,9" ZM="0,22" MT="1308,99" TZ="4,1" TM="0,02"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="62,99" OZ="40,02" EM="15,9" ZM="0,22" MT="7,07" TZ="4,1" TM="0,02"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" PZ="9054,18" OZ="5752,47" EM="2285,47" ZM="31,62" MT="1016,24" TZ="589,33" TM="2,87"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 5&#xA0;784,09)" DataType="Nacl" PZ="5437,04"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 5&#xA0;784,09)" DataType="Plan" PZ="2949,89"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="17441,11"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="1364,91" OZ="40,02" EM="15,9" ZM="0,22" MT="1308,99" TZ="4,1" TM="0,02"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="62,99" OZ="40,02" EM="15,9" ZM="0,22" MT="7,07" TZ="4,1" TM="0,02"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" PZ="9054,18" OZ="5752,47" EM="2285,47" ZM="31,62" MT="1016,24" TZ="589,33" TM="2,87"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 5&#xA0;784,09)" DataType="Nacl" PZ="5437,04"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 5&#xA0;784,09)" DataType="Plan" PZ="2949,89"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="17441,11"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="4,1" TM="0,02"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" TZ="589,33" TM="2,87"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Грунтовка SIGMAFAST 278 Расход: 0,38 кг/м2" Number="188" Code="Данные заказчика" Units="кг" SysID="490" PriceLevel="2001" Quantity="ОКР(Ф136*0,38*100; 4)" Options="NotInNB" PzSync="Yes" Vr2001="10092" Cargo="3" Mass="1,1">
+        <Quantity Fx="Ф136*0,38*100" Precision="4" Result="5462,12"/>
+        <PriceBase PZ="40,31" MT="40,31">
+          <Fx MT="595.2/ндс/мтр*зсрм"/>
+        </PriceBase>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="40,31" MT="40,31"/>
+            <Itog Caption="ВСЕГО на физобъем (5462,12)" DataType="TotalFo" PZ="220178,06" MT="220178,06"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="40,31" MT="40,31"/>
+            <Itog Caption="ВСЕГО на физобъем (5462,12)" DataType="TotalFo" PZ="220178,06" MT="220178,06"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr"/>
+            <Itog Caption="ВСЕГО на физобъем (5462,12)" DataType="TotalFo"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Окраска металлических огрунтованных поверхностей: пастой огнезащитной ВПМ-2" Identifier="Ф7" Number="189" Code="ФЕР13-03-004-24" ItemFlags="Info" Units="100 м2" SysID="491" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="14374 / 100" DBFlags="Comment TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="=14374" KUnit="100" Result="143,74"/>
+        <PriceBase PZ="24209,26" OZ="963,23" EM="207,83" ZM="30,03" MT="23038,2"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-3-5" Units="чел.-ч" Quantity="106,2" WorkClass="3,5">
+            <PriceBase Value="9,07"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="2,71"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,91">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="1,8">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mch Caption="Агрегаты окрасочные высокого давления для окраски поверхностей конструкций, мощность 1 кВт" Code="91.21.01-012" Units="маш.час" Quantity="1,12">
+            <PriceBase Value="6,82"/>
+          </Mch>
+          <Mat Caption="Паста огнезащитная вспучивающаяся водоэмульсионная ВПМ-2" Code="14.2.02.12-0711" Units="т" Quantity="0,6" Attribs="Deleted">
+            <PriceBase Value="38397"/>
+          </Mat>
+        </Resources>
+        <WorksList>
+          <Work Caption="Подготовка окрасочных агрегатов."/>
+          <Work Caption="Приготовление состава."/>
+          <Work Caption="Нанесение окрасочного состава."/>
+          <Work Caption="Промывка, очистка окрасочных агрегатов и шлангов."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="24209,26" OZ="963,23" EM="207,83" ZM="30,03" MT="23038,2" TZ="106,2" TM="2,71"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="1171,06" OZ="963,23" EM="207,83" ZM="30,03" TZ="106,2" TM="2,71"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" PZ="168328,16" OZ="138454,68" EM="29873,48" ZM="4316,51" TZ="15265,19" TM="389,54"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 142&#xA0;771,19)" DataType="Nacl" PZ="134204,92"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 142&#xA0;771,19)" DataType="Plan" PZ="72813,31"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="375346,39"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="24209,26" OZ="963,23" EM="207,83" ZM="30,03" MT="23038,2" TZ="106,2" TM="2,71"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="1171,06" OZ="963,23" EM="207,83" ZM="30,03" TZ="106,2" TM="2,71"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" PZ="168328,16" OZ="138454,68" EM="29873,48" ZM="4316,51" TZ="15265,19" TM="389,54"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 142&#xA0;771,19)" DataType="Nacl" PZ="134204,92"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 142&#xA0;771,19)" DataType="Plan" PZ="72813,31"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="375346,39"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="106,2" TM="2,71"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" TZ="15265,19" TM="389,54"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Однокомпонентный огнезащитный состав PROTERM SU 1609 Расход:  2.27 кг/м2" Number="190" Code="Данные заказчика" Units="кг" SysID="492" PriceLevel="2001" Quantity="ОКР(Ф7*2.27*100; 4)" Options="NotInNB" PzSync="Yes" Vr2001="10092" Cargo="3" Mass="1,1">
+        <Quantity Fx="Ф7*2.27*100" Precision="4" Result="32628,98"/>
+        <PriceBase PZ="102,27" MT="102,27">
+          <Fx MT="1510/ндс/мтр*зсрм"/>
+        </PriceBase>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="102,27" MT="102,27"/>
+            <Itog Caption="ВСЕГО на физобъем (32628,98)" DataType="TotalFo" PZ="3336965,78" MT="3336965,78"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="102,27" MT="102,27"/>
+            <Itog Caption="ВСЕГО на физобъем (32628,98)" DataType="TotalFo" PZ="3336965,78" MT="3336965,78"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr"/>
+            <Itog Caption="ВСЕГО на физобъем (32628,98)" DataType="TotalFo"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Окраска металлических огрунтованных поверхностей: эмалью ХС-436" Identifier="Ф138" Number="191" Code="ФЕР13-03-004-01" ItemFlags="Info" Units="100 м2" SysID="493" PriceLevel="2001" DBComment="Приказ Минстроя России от 26.12.2019 №876/пр" Quantity="14374 / 100" DBFlags="Comment TechK" PzSync="Yes" Vr2001="10020">
+        <Quantity Fx="=14374" KUnit="100" Result="143,74"/>
+        <PriceBase PZ="1395,42" OZ="25,21" EM="16,19" ZM="0,45" MT="1354,02"/>
+        <Resources>
+          <Tzr Caption="Затраты труда рабочих" Code="1-3-5" Units="чел.-ч" Quantity="2,78" WorkClass="3,5">
+            <PriceBase Value="9,07"/>
+          </Tzr>
+          <Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,04"/>
+          <Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="1,7"/>
+          </Mch>
+          <Mch Caption="Погрузчики, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.час" Quantity="0,01">
+            <PriceBase Value="89,99" ZM="10,06"/>
+          </Mch>
+          <Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.час" Quantity="0,03">
+            <PriceBase Value="65,71" ZM="11,6"/>
+          </Mch>
+          <Mch Caption="Агрегаты окрасочные высокого давления для окраски поверхностей конструкций, мощность 1 кВт" Code="91.21.01-012" Units="маш.час" Quantity="1,95">
+            <PriceBase Value="6,82"/>
+          </Mch>
+          <Mat Caption="Эмаль двухкомпонентная из сополимера винилхлорида, модифицированного эпоксидной смолой" Identifier="р1" Code="14.4.04.11-0005" Units="т" Quantity="0,027" Attribs="Deleted" Cargo="3" Mass="1260">
+            <PriceBase Value="48307"/>
+          </Mat>
+          <Mat Caption="Отвердитель амино-фенольный" Code="14.5.09.04-0115" Units="кг" Quantity="0,5" Attribs="Deleted" Cargo="2" Mass="1260">
+            <PriceBase Value="48,6"/>
+          </Mat>
+          <Mat Caption="Растворитель Р-4" Code="14.5.09.07-0030" Units="кг" Quantity="2,7" Cargo="1" Mass="1,26">
+            <PriceBase Value="9,42"/>
+          </Mat>
+        </Resources>
+        <Koefficients>
+          <K Caption="К=2, на второй слой" Options="Base Curr PzAll EmAll MatQty EmQty OzpTz ZpmTz" Value_PZ="2" Level="1"/>
+        </Koefficients>
+        <WorksList>
+          <Work Caption="Подготовка окрасочных агрегатов."/>
+          <Work Caption="Приготовление состава."/>
+          <Work Caption="Нанесение окрасочного состава."/>
+          <Work Caption="Промывка, очистка окрасочных агрегатов и шлангов."/>
+          <Work Caption="Контроль качества."/>
+        </WorksList>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="1395,42" OZ="25,21" EM="16,19" ZM="0,45" MT="1354,02" TZ="2,78" TM="0,04"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="66,83" OZ="25,21" EM="16,19" ZM="0,45" MT="25,43" TZ="2,78" TM="0,04"/>
+            <Itog Caption="Коэффициенты к позиции:" PZ="2" PZResult="2" OZ="2" OZResult="2" EM="2" EMResult="2" ZM="2" ZMResult="2" MT="2" MTResult="2" TZ="2" TZResult="2" TM="2" TMResult="2">
+              <Itog Caption="К=2, на второй слой" PZ="2" OZ="2" EM="2" ZM="2" MT="2" TZ="2" TM="2"/>
+            </Itog>
+            <Itog Caption="Итого на единицу с учетом коэффициентов к позиции" Status="Inactive" PZ="133,66" OZ="50,42" EM="32,38" ZM="0,9" MT="50,86" TZ="5,56" TM="0,08"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" PZ="19212,29" OZ="7247,37" EM="4654,3" ZM="129,37" MT="7310,62" TZ="799,19" TM="11,5"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 7&#xA0;376,74)" DataType="Nacl" PZ="6934,14"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 7&#xA0;376,74)" DataType="Plan" PZ="3762,14"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="29908,57"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="1395,42" OZ="25,21" EM="16,19" ZM="0,45" MT="1354,02" TZ="2,78" TM="0,04"/>
+            <Itog Caption="С учетом стоимости удаленных ресурсов" DataType="ForOneWithResChange" PZ="66,83" OZ="25,21" EM="16,19" ZM="0,45" MT="25,43" TZ="2,78" TM="0,04"/>
+            <Itog Caption="Коэффициенты к позиции:" PZ="2" PZResult="2" OZ="2" OZResult="2" EM="2" EMResult="2" ZM="2" ZMResult="2" MT="2" MTResult="2" TZ="2" TZResult="2" TM="2" TMResult="2">
+              <Itog Caption="К=2, на второй слой" PZ="2" OZ="2" EM="2" ZM="2" MT="2" TZ="2" TM="2"/>
+            </Itog>
+            <Itog Caption="Итого на единицу с учетом коэффициентов к позиции" Status="Inactive" PZ="133,66" OZ="50,42" EM="32,38" ZM="0,9" MT="50,86" TZ="5,56" TM="0,08"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" PZ="19212,29" OZ="7247,37" EM="4654,3" ZM="129,37" MT="7310,62" TZ="799,19" TM="11,5"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 7&#xA0;376,74)" DataType="Nacl" PZ="6934,14"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 7&#xA0;376,74)" DataType="Plan" PZ="3762,14"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="29908,57"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr" TZ="2,78" TM="0,04"/>
+            <Itog Caption="Коэффициенты к позиции:" PZ="2" PZResult="2" OZ="2" OZResult="2" EM="2" EMResult="2" ZM="2" ZMResult="2" MT="2" MTResult="2" TZ="2" TZResult="2" TM="2" TMResult="2">
+              <Itog Caption="К=2, на второй слой" PZ="2" OZ="2" EM="2" ZM="2" MT="2" TZ="2" TM="2"/>
+            </Itog>
+            <Itog Caption="Итого на единицу с учетом коэффициентов к позиции" Status="Inactive" TZ="5,56" TM="0,08"/>
+            <Itog Caption="ВСЕГО на физобъем (143,74)" DataType="TotalFo" TZ="799,19" TM="11,5"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Position Caption="Двухкомпонентное, толстослойное полуглянцевое финишное покрытие на основе алифатического акрилового полиуретан SIGMADUR 520 Расход:  0.208 кг/м2" Number="192" Code="Данные заказчика" Units="кг" SysID="494" PriceLevel="2001" Quantity="ОКР(Ф138*0.208*100; 4)" Options="NotInNB" PzSync="Yes" Vr2001="10092" Cargo="3" Mass="1,1">
+        <Quantity Fx="Ф138*0.208*100" Precision="4" Result="2989,792"/>
+        <PriceBase PZ="62,11" MT="62,11">
+          <Fx MT="917/ндс/мтр*зсрм"/>
+        </PriceBase>
+        <Itog>
+          <ItogNoIdx>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="62,11" MT="62,11"/>
+            <Itog Caption="ВСЕГО на физобъем (2989,792)" DataType="TotalFo" PZ="185695,98" MT="185695,98"/>
+          </ItogNoIdx>
+          <ItogBim>
+            <Itog Caption="На единицу в базисных ценах" DataType="ForOneBase" PZ="62,11" MT="62,11"/>
+            <Itog Caption="ВСЕГО на физобъем (2989,792)" DataType="TotalFo" PZ="185695,98" MT="185695,98"/>
+          </ItogBim>
+          <ItogRes>
+            <Itog Caption="На единицу в текущих ценах" DataType="ForOneCurr"/>
+            <Itog Caption="ВСЕГО на физобъем (2989,792)" DataType="TotalFo"/>
+          </ItogRes>
+        </Itog>
+      </Position>
+      <Itog>
+        <ItogNoIdx>
+          <Itog Caption="Итого прямые затраты по разделу в базисных ценах" DataType="CleanPrice" PZ="5869902,97" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="4586433,35" TZ="29912,51" TM="12070,03"/>
+          <Itog Caption="Накладные расходы" DataType="NSummRoot" PZ="370626,34">
+            <Itog Caption="В том числе, справочно:"/>
+            <Itog Caption=" 94% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="NSummDet" PZ="370626,34"/>
+          </Itog>
+          <Itog Caption="Сметная прибыль" DataType="PSummRoot" PZ="201084,5">
+            <Itog Caption="В том числе, справочно:"/>
+            <Itog Caption=" 51% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="PSummDet" PZ="201084,5"/>
+          </Itog>
+          <Itog Caption="Итого по разделу 1 Антикоррозионное и огнезащитное покрытие металлоконструкций" DataType="ChapterTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+            <Itog Caption="Итого Строительные работы" DataType="OSGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+              <Itog Caption="Защита строительных конструкций и оборудования от коррозии" DataType="VrGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+                <Itog Caption="Итого Поз. 179-183, 185, 187, 189, 191" DataType="GroupInitial" PZ="1710992,74" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="427523,12" TZ="29912,51" TM="12070,03"/>
+                <Itog Caption="Накладные расходы 94% ФОТ (от 394&#xA0;283,34)" DataType="Nacl" PZ="370626,34"/>
+                <Itog Caption="Сметная прибыль 51% ФОТ (от 394&#xA0;283,34)" DataType="Plan" PZ="201084,5"/>
+                <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+              </Itog>
+              <Itog Caption="Итого" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+            </Itog>
+            <Itog Caption="Итого Монтажные работы" DataType="OSGroup" PZ="4158910,23">
+              <Itog Caption="Материалы для монтажных работ" DataType="VrGroup" PZ="4158910,23">
+                <Itog Caption="Итого Поз. 184, 186, 188, 190, 192" DataType="GroupInitial" PZ="4158910,23" MT="4158910,23"/>
+              </Itog>
+              <Itog Caption="Итого" PZ="4158910,23"/>
+            </Itog>
+            <Itog Caption="Итого" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+              <Itog Caption="В том числе:"/>
+              <Itog Caption="  Материалы" PZ="4586433,35"/>
+              <Itog Caption="  Машины и механизмы" PZ="1016309,9"/>
+              <Itog Caption="  ФОТ" PZ="394283,34"/>
+              <Itog Caption="  Накладные расходы" PZ="370626,34"/>
+              <Itog Caption="  Сметная прибыль" PZ="201084,5"/>
+            </Itog>
+            <Itog Caption="Итого по разделу 1 Антикоррозионное и огнезащитное покрытие металлоконструкций" DataType="ChapterTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03"/>
+          </Itog>
+        </ItogNoIdx>
+        <ItogBim>
+          <Itog Caption="Итого прямые затраты по разделу в базисных ценах" DataType="CleanPrice" PZ="5869902,97" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="4586433,35" TZ="29912,51" TM="12070,03"/>
+          <Itog Caption="Накладные расходы" DataType="NSummRoot" PZ="370626,34">
+            <Itog Caption="В том числе, справочно:"/>
+            <Itog Caption=" 94% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="NSummDet" PZ="370626,34"/>
+          </Itog>
+          <Itog Caption="Сметная прибыль" DataType="PSummRoot" PZ="201084,5">
+            <Itog Caption="В том числе, справочно:"/>
+            <Itog Caption=" 51% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="PSummDet" PZ="201084,5"/>
+          </Itog>
+          <Itog Caption="Итого по разделу 1 Антикоррозионное и огнезащитное покрытие металлоконструкций" DataType="ChapterTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+            <Itog Caption="Итого Строительные работы" DataType="OSGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+              <Itog Caption="Защита строительных конструкций и оборудования от коррозии" DataType="VrGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+                <Itog Caption="Итого Поз. 179-183, 185, 187, 189, 191" DataType="GroupInitial" PZ="1710992,74" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="427523,12" TZ="29912,51" TM="12070,03"/>
+                <Itog Caption="Накладные расходы 94% ФОТ (от 394&#xA0;283,34)" DataType="Nacl" PZ="370626,34"/>
+                <Itog Caption="Сметная прибыль 51% ФОТ (от 394&#xA0;283,34)" DataType="Plan" PZ="201084,5"/>
+                <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+              </Itog>
+              <Itog Caption="Итого" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+            </Itog>
+            <Itog Caption="Итого Монтажные работы" DataType="OSGroup" PZ="4158910,23">
+              <Itog Caption="Материалы для монтажных работ" DataType="VrGroup" PZ="4158910,23">
+                <Itog Caption="Итого Поз. 184, 186, 188, 190, 192" DataType="GroupInitial" PZ="4158910,23" MT="4158910,23"/>
+              </Itog>
+              <Itog Caption="Итого" PZ="4158910,23"/>
+            </Itog>
+            <Itog Caption="Итого" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+              <Itog Caption="В том числе:"/>
+              <Itog Caption="  Материалы" PZ="4586433,35"/>
+              <Itog Caption="  Машины и механизмы" PZ="1016309,9"/>
+              <Itog Caption="  ФОТ" PZ="394283,34"/>
+              <Itog Caption="  Накладные расходы" PZ="370626,34"/>
+              <Itog Caption="  Сметная прибыль" PZ="201084,5"/>
+            </Itog>
+            <Itog Caption="Итого по разделу 1 Антикоррозионное и огнезащитное покрытие металлоконструкций" DataType="ChapterTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03"/>
+          </Itog>
+        </ItogBim>
+        <ItogRes>
+          <Itog Caption="Итого прямые затраты по разделу в текущих ценах" DataType="CleanPrice" TZ="29912,51" TM="12070,03"/>
+          <Itog Caption="Итого по разделу 1 Антикоррозионное и огнезащитное покрытие металлоконструкций" DataType="ChapterTotal" TZ="29912,51" TM="12070,03">
+            <Itog Caption="Итого Строительные работы" DataType="OSGroup" TZ="29912,51" TM="12070,03">
+              <Itog Caption="Защита строительных конструкций и оборудования от коррозии" DataType="VrGroup" TZ="29912,51" TM="12070,03">
+                <Itog Caption="Итого Поз. 179-183, 185, 187, 189, 191" DataType="GroupInitial" TZ="29912,51" TM="12070,03"/>
+                <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+                <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+                <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" TZ="29912,51" TM="12070,03"/>
+              </Itog>
+              <Itog Caption="Итого" TZ="29912,51" TM="12070,03"/>
+            </Itog>
+            <Itog Caption="Итого Монтажные работы" DataType="OSGroup">
+              <Itog Caption="Материалы для монтажных работ" DataType="VrGroup">
+                <Itog Caption="Итого Поз. 184, 186, 188, 190, 192" DataType="GroupInitial"/>
+              </Itog>
+              <Itog Caption="Итого"/>
+            </Itog>
+            <Itog Caption="Итого" TZ="29912,51" TM="12070,03">
+              <Itog Caption="В том числе:"/>
+            </Itog>
+            <Itog Caption="Итого по разделу 1 Антикоррозионное и огнезащитное покрытие металлоконструкций" DataType="ChapterTotal" TZ="29912,51" TM="12070,03"/>
+          </Itog>
+        </ItogRes>
+      </Itog>
+    </Chapter>
+  </Chapters>
+  <ReportOptions Options="SeparateZakPodr" Kk="1" RangingGroups="Mch Mat">
+    <RangingRates Mch="20" Mat="20"/>
+  </ReportOptions>
+  <Itog>
+    <ItogNoIdx>
+      <Itog Caption="Итого прямые затраты по смете в базисных ценах" DataType="CleanPrice" PZ="5869902,97" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="4586433,35" TZ="29912,51" TM="12070,03"/>
+      <Itog Caption="Накладные расходы" DataType="NSummRoot" PZ="370626,34">
+        <Itog Caption="В том числе, справочно:"/>
+        <Itog Caption=" 94% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="NSummDet" PZ="370626,34"/>
+      </Itog>
+      <Itog Caption="Сметная прибыль" DataType="PSummRoot" PZ="201084,5">
+        <Itog Caption="В том числе, справочно:"/>
+        <Itog Caption=" 51% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="PSummDet" PZ="201084,5"/>
+      </Itog>
+      <Itog Caption="ВСЕГО по смете" DataType="SmetaTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+        <Itog Caption="Итого Строительные работы" DataType="OSGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+          <Itog Caption="Защита строительных конструкций и оборудования от коррозии" DataType="VrGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+            <Itog Caption="Итого Поз. 179-183, 185, 187, 189, 191" DataType="GroupInitial" PZ="1710992,74" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="427523,12" TZ="29912,51" TM="12070,03"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 394&#xA0;283,34)" DataType="Nacl" PZ="370626,34"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 394&#xA0;283,34)" DataType="Plan" PZ="201084,5"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+          </Itog>
+          <Itog Caption="Итого" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+        </Itog>
+        <Itog Caption="Итого Монтажные работы" DataType="OSGroup" PZ="4158910,23">
+          <Itog Caption="Материалы для монтажных работ" DataType="VrGroup" PZ="4158910,23">
+            <Itog Caption="Итого Поз. 184, 186, 188, 190, 192" DataType="GroupInitial" PZ="4158910,23" MT="4158910,23"/>
+          </Itog>
+          <Itog Caption="Итого" PZ="4158910,23"/>
+        </Itog>
+        <Itog Caption="Итого" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+          <Itog Caption="В том числе:"/>
+          <Itog Caption="  Материалы" PZ="4586433,35"/>
+          <Itog Caption="  Машины и механизмы" PZ="1016309,9"/>
+          <Itog Caption="  ФОТ" PZ="394283,34"/>
+          <Itog Caption="  Накладные расходы" PZ="370626,34"/>
+          <Itog Caption="  Сметная прибыль" PZ="201084,5"/>
+        </Itog>
+        <Itog Caption="ВСЕГО по смете" DataType="SmetaTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03"/>
+      </Itog>
+    </ItogNoIdx>
+    <ItogBim>
+      <Itog Caption="Итого прямые затраты по смете в базисных ценах" DataType="CleanPrice" PZ="5869902,97" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="4586433,35" TZ="29912,51" TM="12070,03"/>
+      <Itog Caption="Накладные расходы" DataType="NSummRoot" PZ="370626,34">
+        <Itog Caption="В том числе, справочно:"/>
+        <Itog Caption=" 94% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="NSummDet" PZ="370626,34"/>
+      </Itog>
+      <Itog Caption="Сметная прибыль" DataType="PSummRoot" PZ="201084,5">
+        <Itog Caption="В том числе, справочно:"/>
+        <Itog Caption=" 51% ФОТ (от 394283,34) (Поз. 179-183, 185, 187, 189, 191)" DataType="PSummDet" PZ="201084,5"/>
+      </Itog>
+      <Itog Caption="ВСЕГО по смете" DataType="SmetaTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+        <Itog Caption="Итого Строительные работы" DataType="OSGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+          <Itog Caption="Защита строительных конструкций и оборудования от коррозии" DataType="VrGroup" PZ="2282703,58" TZ="29912,51" TM="12070,03">
+            <Itog Caption="Итого Поз. 179-183, 185, 187, 189, 191" DataType="GroupInitial" PZ="1710992,74" OZ="267159,72" EM="1016309,9" ZM="127123,62" MT="427523,12" TZ="29912,51" TM="12070,03"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 394&#xA0;283,34)" DataType="Nacl" PZ="370626,34"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 394&#xA0;283,34)" DataType="Plan" PZ="201084,5"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+          </Itog>
+          <Itog Caption="Итого" PZ="2282703,58" TZ="29912,51" TM="12070,03"/>
+        </Itog>
+        <Itog Caption="Итого Монтажные работы" DataType="OSGroup" PZ="4158910,23">
+          <Itog Caption="Материалы для монтажных работ" DataType="VrGroup" PZ="4158910,23">
+            <Itog Caption="Итого Поз. 184, 186, 188, 190, 192" DataType="GroupInitial" PZ="4158910,23" MT="4158910,23"/>
+          </Itog>
+          <Itog Caption="Итого" PZ="4158910,23"/>
+        </Itog>
+        <Itog Caption="Итого" PZ="6441613,81" TZ="29912,51" TM="12070,03">
+          <Itog Caption="В том числе:"/>
+          <Itog Caption="  Материалы" PZ="4586433,35"/>
+          <Itog Caption="  Машины и механизмы" PZ="1016309,9"/>
+          <Itog Caption="  ФОТ" PZ="394283,34"/>
+          <Itog Caption="  Накладные расходы" PZ="370626,34"/>
+          <Itog Caption="  Сметная прибыль" PZ="201084,5"/>
+        </Itog>
+        <Itog Caption="ВСЕГО по смете" DataType="SmetaTotal" PZ="6441613,81" TZ="29912,51" TM="12070,03"/>
+      </Itog>
+    </ItogBim>
+    <ItogRes>
+      <Itog Caption="Итого прямые затраты по смете в текущих ценах" DataType="CleanPrice" TZ="29912,51" TM="12070,03"/>
+      <Itog Caption="ВСЕГО по смете" DataType="SmetaTotal" TZ="29912,51" TM="12070,03">
+        <Itog Caption="Итого Строительные работы" DataType="OSGroup" TZ="29912,51" TM="12070,03">
+          <Itog Caption="Защита строительных конструкций и оборудования от коррозии" DataType="VrGroup" TZ="29912,51" TM="12070,03">
+            <Itog Caption="Итого Поз. 179-183, 185, 187, 189, 191" DataType="GroupInitial" TZ="29912,51" TM="12070,03"/>
+            <Itog Caption="Накладные расходы 94% ФОТ (от 0,00)" DataType="Nacl"/>
+            <Itog Caption="Сметная прибыль 51% ФОТ (от 0,00)" DataType="Plan"/>
+            <Itog Caption="Итого c накладными и см. прибылью" DataType="TotalWithNP" TZ="29912,51" TM="12070,03"/>
+          </Itog>
+          <Itog Caption="Итого" TZ="29912,51" TM="12070,03"/>
+        </Itog>
+        <Itog Caption="Итого Монтажные работы" DataType="OSGroup">
+          <Itog Caption="Материалы для монтажных работ" DataType="VrGroup">
+            <Itog Caption="Итого Поз. 184, 186, 188, 190, 192" DataType="GroupInitial"/>
+          </Itog>
+          <Itog Caption="Итого"/>
+        </Itog>
+        <Itog Caption="Итого" TZ="29912,51" TM="12070,03">
+          <Itog Caption="В том числе:"/>
+        </Itog>
+        <Itog Caption="ВСЕГО по смете" DataType="SmetaTotal" TZ="29912,51" TM="12070,03"/>
+      </Itog>
+    </ItogRes>
+  </Itog>
+</Document>
